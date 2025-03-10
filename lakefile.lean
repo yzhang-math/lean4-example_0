@@ -7,7 +7,12 @@ package «lean4-example» {
 
 
 @[default_target]
-lean_lib «Lean4Example» {
+lean_lib «minif2f_valid» {
+  -- add library configuration options here
+}
+
+@[default_target]
+lean_lib «minif2f_test» {
   -- add library configuration options here
 }
 
